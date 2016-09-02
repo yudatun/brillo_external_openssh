@@ -195,6 +195,7 @@
 
 /* OpenBSD's gcc has sentinel */
 /* #undef HAVE_ATTRIBUTE__SENTINEL__ */
+#define HAVE_ATTRIBUTE__SENTINEL__ 1
 
 /* Define to 1 if you have the `aug_get_machine' function. */
 /* #undef HAVE_AUG_GET_MACHINE */
