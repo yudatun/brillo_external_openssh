@@ -266,6 +266,8 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_SHARED_LIBRARIES += libssh libssl libcrypto libdl libz libcutils
 
+LOCAL_INIT_RC := sshd.rc
+
 include $(BUILD_EXECUTABLE)
 
 ###################### ssh-keygen ######################

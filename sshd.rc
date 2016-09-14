@@ -1,0 +1,8 @@
+on post-fs-data
+    mkdir /data/ssh 0644 root root
+    mkdir /data/ssh/empty 0644 root root
+
+service sshd /system/bin/start-ssh
+    class late_start
+    user root
+    group root
